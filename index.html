@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans w-full h-screen">
+
+
+    <div class="container mx-auto p-4">
+        <h1 class="text-4xl font-bold text-center my-4 ">Weather Forecast</h1>
+     
+        <div class="flex justify-center items-center space-x-4 mb-4">
+            <input id="cityInput" type="text" placeholder="Enter city name" class="p-2 rounded-md text-black">
+            <button id="searchBtn" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded-md">Search</button>
+        </div>
+        <div class="flex justify-center items-center">
+            <button class="text-center mb-4 bg-green-800 w-60 rounded-md hover:cursor-pointer border-0">
+                USE CURRENT LOCATION
+            </button>
+        </div>
+
+        <div class="flex justify-center items-center mb-4">
+            <select id="recentCitiesDropdown" class="p-1 rounded-md bg-blue-500 text-white w-50">
+                <option value="">Recently searched city</option>
+            </select>
+        </div>
+
+        <div id="weatherData" class="text-center ">
+        </div>
+        <div id="extendedForecast" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mt-4">
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
