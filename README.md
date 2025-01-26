@@ -13,4 +13,4 @@ A simple weather forecast application that provides current weather and 5-day ex
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weather-forecast.git
+   git clone https://github.com/RahulBelavadi/Weather.git
