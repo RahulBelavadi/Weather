@@ -10,7 +10,7 @@ A simple weather forecast application that provides current weather and 5-day ex
 - Search weather by current city.
 - Responsive design for desktop, iPad, and mobile.
 
-## Setup Instructions
+## Git-clone
 1. Clone the repository:
    ```bash
    git clone https://github.com/RahulBelavadi/Weather.git
