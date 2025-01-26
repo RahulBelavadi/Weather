@@ -164,6 +164,6 @@ function loadRecentCities() {
         option.textContent = city;
         recentCitiesDropdown.appendChild(option);
     });
-    localStorage.clear()
+
 }
 
