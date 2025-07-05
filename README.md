@@ -1,5 +1,10 @@
 # Weather Forecast Application
 
+![Alt Text](./your-image-name.png)
+![Project Preview](./Wheather.png)
+
+
+
 ## Description
 A simple weather forecast application that provides current weather and 5-day extended forecast using data from the OpenWeatherMap API.
 
